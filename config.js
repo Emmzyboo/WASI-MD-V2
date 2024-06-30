@@ -19,7 +19,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "ezeanyimonyeka@gmail.com";
+global.email = "onyekaemma2004@gmail.com";
 global.location = "Lagos,Nigeria.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
@@ -62,11 +62,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐅𝐈𝐍𝐀𝐍𝐂𝐄𝐓𝐕😍",
+  caption: process.env.CAPTION || "File-Generated-By-MaverickBot😍",
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐕𝐁𝐨𝐭",
-  ownername: process.env.OWNER_NAME || "Maverick",
+  botname: process.env.BOT_NAME || "FinanceVBot",
+  ownername: process.env.OWNER_NAME || "MaverickBot",
   errorChat: process.env.ERROR_CHAT || "2348160152620",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
